@@ -1,0 +1,56 @@
+﻿Build started 4/6/2015 11:04:07 PM.
+Project "C:\Users\felicitia\Desktop\Zhao_Yixue_HW5\CS580HW5.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\visual studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\CS580HW5.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application5.cpp
+  Application5.cpp
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(32): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(107): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(115): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(122): warning C4305: '=' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(123): warning C4305: '=' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(126): warning C4305: '=' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(130): warning C4305: '=' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(139): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(140): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(141): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(142): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(145): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(146): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(147): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(65): warning C4101: 'shaderType' : unreferenced local variable
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(240): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\visual studio 2013\vc\include\stdio.h(211) : see declaration of 'fopen'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(247): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\visual studio 2013\vc\include\stdio.h(211) : see declaration of 'fopen'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(257): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\visual studio 2013\vc\include\stdio.h(230) : see declaration of 'fscanf'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(263): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\visual studio 2013\vc\include\stdio.h(230) : see declaration of 'fscanf'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(269): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\visual studio 2013\vc\include\stdio.h(230) : see declaration of 'fscanf'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(275): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\visual studio 2013\vc\include\stdio.h(230) : see declaration of 'fscanf'
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(345): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(346): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+c:\users\felicitia\desktop\zhao_yixue_hw5\application5.cpp(347): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+Link:
+  C:\visual studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\CS580HW5.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\visual studio 2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\CS580HW5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\CS580HW5.lib" /MACHINE:X86 /SAFESEH .\Debug\CS580HW.res
+  .\Debug\Application.obj
+  .\Debug\Application5.obj
+  .\Debug\CS580HW.obj
+  .\Debug\CS580HWDoc.obj
+  .\Debug\CS580HWView.obj
+  .\Debug\disp.obj
+  .\Debug\MainFrm.obj
+  .\Debug\rend.obj
+  .\Debug\RotateDlg.obj
+  .\Debug\ScaleDlg.obj
+  .\Debug\StdAfx.obj
+  .\Debug\tex_fun.obj
+  .\Debug\TranslateDlg.obj
+  CS580HW5.vcxproj -> C:\Users\felicitia\Desktop\Zhao_Yixue_HW5\.\Debug\CS580HW5.exe
+Done Building Project "C:\Users\felicitia\Desktop\Zhao_Yixue_HW5\CS580HW5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.45
